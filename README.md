@@ -1,12 +1,11 @@
-# ES6-Deliverable
-This is the deliverable for the intro to ES6 lesson
+# ES6-Exercise
+This is an exercise file for the intro to ES6 lesson
 
 ## Instructions
-- Fork and clone
+- Clone down this repository
 - Go into each file in the exercises folder and solve the problem that is given. Look at your code along and google your little hearts out. 
 - Use an online REPL or run each file in your command line using node.
-- once you've solved them all do a pull request.
-
+l
 ## Additional resources
 
 - [ES6](http://webapplog.com/es6/)
