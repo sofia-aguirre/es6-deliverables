@@ -11,7 +11,7 @@ const people = [{name: "Jennie", role: "senior"},
                 {name: "Martin", role: "senior"},
                 {name: "Anneli", role: "junior"}]
 
-let message = YOUR CODE HERE
+let message = console.log(`${people.forEach(${this.name}, is a ${this.role} from team ${teamName})}`)
 
 console.log(message)
 

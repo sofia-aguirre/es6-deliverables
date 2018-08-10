@@ -8,6 +8,7 @@ const account = {
   username: "marijn",
   password: "xyzzy"
 }
+//can't be reassigned, but its properties can be updated
 
 account.password = "s3cret"
 

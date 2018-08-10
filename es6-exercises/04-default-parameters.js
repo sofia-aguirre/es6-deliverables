@@ -2,8 +2,14 @@
 // and lastName. Set the default values to 'hello' and your first
 // and last name, if no input is provided.
 
-const greeting = function(){}  // fill this in!
+var myEmployee = {
+    firstName: this.firstName,
+    lastName: this.lastName,
+    type: "valued employee",
+    expectsWelcome: true,
+    defaultGreeting: `Welcome back, ${this.type}.`,
+    personalizedGreeting: `Great to see you back, ${this.firsttName} ${this.lastName}.`,
+    greeting:(expectsWelcome,firstName,lastName) => this.firstName = this.personalizedGreeting || this.defaultGreeting,
+}
 
-console.log(greeting());
-
-console.log(greeting('hi', 'harry', 'hedger'));
+console.log(myEmployee.greeting(1,"Jane" ,"McCarthy"));
